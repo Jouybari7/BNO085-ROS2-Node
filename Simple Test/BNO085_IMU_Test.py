@@ -6,7 +6,7 @@ import adafruit_bno08x
 from adafruit_bno08x.i2c import BNO08X_I2C
 
 def main(args=None):
-    i2c = I2C(3)
+    i2c = I2C(7)
     try:
         imu = BNO08X_I2C(i2c)
     except:
